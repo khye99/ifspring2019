@@ -9,15 +9,26 @@
             font-family: fantasy;
             font-size: 105%;
         }
+        .title-bar {
+            overflow: hidden;
+            position: fixed;
+            background-color: white;
+            top: 0;
+            width: 100%;
+            padding-bottom: none;
+            outline: 2px;
+        }
         #title-container {
             font-family: Verdana;
             font-size: 140%;
             color: #0D3882;
-            border-bottom: double;
+            outline: double;
+            outline-offset: 14px;
             text-align: center;
-            padding: 20px;
+            padding: 10px;
         }
         #header-container {
+            padding-top: 100px;
             text-align: center;
             color: #0D3882;
         }
@@ -37,6 +48,13 @@
             list-style-type: none;
             padding-bottom: 10px;
         }
+        b {
+            font-size: 130%;
+        }
+        span {
+            color: black;
+            font-style: italic;
+        }
         img {
             width: 20%;
             height: 20%;
@@ -46,41 +64,43 @@
         }
     </style>
 	<body>
-        <h1 id="title-container">
-            Ghostbusters (1984)
-        </h1>
-        <h3 id="header-container">
+        <div class="title-bar"> 
+            <h1 id="title-container">
+                Ghostbusters (1984)
+            </h1>
+        </div>
+        <h2 id="header-container">
             Quotes
-        </h3>
+        </h2>
         <section class="container1"> 
             <ul > 
-                <li> Dr. Peter Venkman: "What I'd really like to do is talk to Dana. Dana? It's Peter."</li>
-                <li> Dana Barrett: "There is no Dana, there is only Zuul."</li>
-                <li> Dr. Peter Venkman: "Oh, Zuulie, you nut, now c'mon. Just relax, c'mon. I want to talk to Dana. Dana, Dana. "Can I talk to Dana?</li>
-                <li> Dana Barrett: "in an inhuman demonic voice There is no Dana, only Zuul!"</li>
-                <li> Dr. Peter Venkman: "What a lovely singing voice you must have."</li>
+                <li> <b>Dr. Peter Venkman:</b> "What I'd really like to do is talk to Dana. Dana? It's Peter."</li>
+                <li> <b>Dana Barrett:</b> "There is no Dana, there is only Zuul."</li>
+                <li> <b>Dr. Peter Venkman:</b> "Oh, Zuulie, you nut, now c'mon. Just relax, c'mon. I want to talk to Dana. Dana, Dana. "Can I talk to Dana?</li>
+                <li> <b>Dana Barrett: </b>"in an inhuman demonic voice There is no Dana, only Zuul!"</li>
+                <li> <b>Dr. Peter Venkman:</b> "What a lovely singing voice you must have."</li>
             </ul>
         </section>
         <section class="container2">
             <ul>
-                <li> Dr. Peter Venkman: "This city is headed for a disaster of biblical proportions."</li>
-                <li> Mayor: "What do you mean, 'biblical?'"</li>
-                <li>Dr Ray Stantz: "What he means is Old Testament, Mr. Mayor, real wrath of God type stuff."</li>
-                <li>Dr. Peter Venkman: "Exactly."</li>
-                <li>Dr Ray Stantz: "Fire and brimstone coming down from the skies! Rivers and seas boiling!"</li>
-                <li>Dr. Egon Spengler: "Forty years of darkness! Earthquakes, volcanoes..."</li>
-                <li>Winston Zeddemore: "The dead rising from the grave!"</li>
-                <li>Dr. Peter Venkman: "Human sacrifice, dogs and cats living together... mass hysteria!"</li>
-                <li>Mayor: "All right, all right! I get the point!"</li>
+                <li> <b>Dr. Peter Venkman:</b> "This city is headed for a disaster of biblical proportions."</li>
+                <li> <b>Mayor:</b> "What do you mean, 'biblical?'"</li>
+                <li><b>Dr Ray Stantz:</b> "What he means is Old Testament, Mr. Mayor, real wrath of God type stuff."</li>
+                <li><b>Dr. Peter Venkman:</b> "Exactly."</li>
+                <li><b>Dr Ray Stantz:</b> "Fire and brimstone coming down from the skies! Rivers and seas boiling!"</li>
+                <li><b>Dr. Egon Spengler:</b> "Forty years of darkness! Earthquakes, volcanoes..."</li>
+                <li><b>Winston Zeddemore:</b> "The dead rising from the grave!"</li>
+                <li><b>Dr. Peter Venkman:</b> "Human sacrifice, dogs and cats living together... mass hysteria!"</li>
+                <li><b>Mayor:</b> "All right, all right! I get the point!"</li>
             </ul>
         </section>
         <section class="container3">
             <ul> 
-                <li>[clearing away tables in the dining room to make room for the ghost trap]</li>
-                <li> Dr Ray Stantz: I've gotta get this in the clear...!</li>
-                <li> Dr Ray Stantz: Wait, wait, wait! I've always wanted to do this...</li>
-                <li>[He yanks a tablecloth off of a table, overturning and shattering everything except the centerpiece in the middle]</li>
-                <li> Dr. Peter Venkman: [triumphantly] And the flowers are still standing!</li>
+                <li><span>[clearing away tables in the dining room to make room for the ghost trap]</span></li>
+                <li> <b>Dr Ray Stantz:</b> I've gotta get this in the clear...!</li>
+                <li> <b>Dr Ray Stantz:</b> Wait, wait, wait! I've always wanted to do this...</li>
+                <li><span>[He yanks a tablecloth off of a table, overturning and shattering everything except the centerpiece in the middle]</span></li>
+                <li> <b>Dr. Peter Venkman:</b> [triumphantly] And the flowers are still standing!</li>
             </ul>
         </section>
         <img src="ghost.jpg">
