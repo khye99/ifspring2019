@@ -3,7 +3,7 @@
     background-color: black;
     color: white;
 /*    text-align: center;*/
-    font-family: cursive;
+    font-family: arial;
 }
 .column {
     float: left;
@@ -12,7 +12,7 @@
 }
 
 /* Clear floats after the columns */
-.row:after {
+#row:after {
     content: "";
     display: table;
     clear: both;
