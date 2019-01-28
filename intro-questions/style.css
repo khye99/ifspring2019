@@ -1,0 +1,50 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  color: black;
+}
+
+.left {
+    width: 50%;
+    background-color: white;
+    overflow: auto;
+}
+
+.right {
+    width: 50%;
+    background-image : url(me2.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    overflow: hidden;
+}
+
+
+.name-container {
+    font-size: 90px;
+    text-align: right;
+    font-family: 'Sofia';
+    letter-spacing: 4px;
+    padding-right: 10px;
+    color:cadetblue;
+}
+.status-container {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color:darkslategrey;
+    padding-left: 50px;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
