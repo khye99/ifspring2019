@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header {
+    margin-top: 0;
+    background-image: url('../images/misty.jpg');
+    background-position: center;
+    height: 480px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 100px;
+    padding-top: 140px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    font-size: 35px;
+}
+
+.second {
+    margin:auto;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 41px;
+    letter-spacing: 0.7px;
+    padding-bottom: 38px;
+    font-weight: 900;
+    background-color: #414259;
+    color: white;
+}
+
+.second h1 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    margin-top: 3px;
+    margin-bottom: 37px;
+}
+
+.second p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.second img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    padding-left: 41px;
+    padding-bottom: 20px;
+}
+
+.third {
+    margin: auto;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-top: 47px;
+    padding-bottom: 40px;
+    background-color: white;;
+}
+
+.third:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+.third h1 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    margin-bottom: 37px;
+}
+.third img {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.desc {
+    float: left;
+    margin-bottom: 24px;
+}
+
+.sect {
+    margin-left: 212px;
+    margin-right: 50px;
+}
+
+.sect h2 {
+    margin-top:3px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+}
+
+.sect p {
+    margin-top: 8px;
+    font-weight: 900;
+    letter-spacing: 0.75px;
+    line-height: 25px;
+}
+
+.fourth {
+    text-align: center;
+    padding-left: 470px;
+    padding-right: 470px;
+    padding-bottom: 100px;
+    background-color: #A6A8EB;
+    color: white;
+}
+
+.fourth h1 {
+    padding-top: 45px;
+    padding-left: 1px;
+    font-size: 40px;
+    letter-spacing: 1.3px;
+    font-weight: 1000;
+}
+
+.fourth p {
+    padding-left: 8px;
+    padding-right: 5px;
+    font-size: 25px;
+    margin-top: 36px;
+    line-height: 1.4em;
+    font-weight: 900;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+}
+
+.space {
+    padding-left: 13px;
+}
+
+footer {
+    margin-bottom: 0;
+    padding-top: 45px;
+    padding-left: 360px;
+    letter-spacing: 1px;
+    font-weight: 900px;
+    background-color: #242439;
+    padding-bottom: 45px;
+    color: white;
+}
