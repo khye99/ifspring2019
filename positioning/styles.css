@@ -48,7 +48,6 @@ aside {
 
 .fourRed {
     background-color: red;
-    position: relative;
     margin-left: 300px;
     z-index: 2;
     position: absolute;
@@ -56,7 +55,6 @@ aside {
 
 .fourBlack {
     background-color: black;
-    position: relative;
     margin-left: 310px;
     position: absolute;
     margin-top: 10px;
