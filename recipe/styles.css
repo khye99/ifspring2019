@@ -1,0 +1,107 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: dimgrey;
+    font-size: 18px;
+}
+
+img {
+    width: 80%;
+}
+
+.title {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 20px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: black;
+}
+
+.time {
+    -webkit-column-count: 3;
+    padding: 10px;
+    color: black;
+}
+
+.time .col {
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nutrition li{
+    padding: 7px;
+}
+
+.ingredients li{
+    text-align: left;
+    padding: 8px;
+    margin-left: 20%;
+}
+
+.instructions {
+    margin: 10px;
+     font-size: 19px;
+}
+
+.instructions p{
+    text-align: left;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+a:hover {
+    color: lightskyblue;
+}
+/*
+.checkbox {
+    margin: 10px;
+    display: block;
+    float: left;
+}
+*/
+
+/* checkbox from https://codepen.io/jamesbarnett/pen/yILjk */
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin:auto;
+    }
+    img {
+        width: 100%;
+    }
+    .ingredients li{
+    text-align: left;
+    padding: 8px;
+    margin-left: 10px;
+}
+}
