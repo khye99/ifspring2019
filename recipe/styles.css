@@ -5,7 +5,7 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     color: dimgrey;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 img {
@@ -18,7 +18,7 @@ img {
 }
 
 .description {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat', sans-serif;
     margin: 20px;
     font-weight: bold;
     color: black;
@@ -32,13 +32,18 @@ h1 {
 .time {
     -webkit-column-count: 3;
     padding: 10px;
+    font-size: 14px;
     color: black;
 }
 
 .time .col {
     padding-top: 20px;
 }
-
+label {
+    display: block;
+    padding-left: 40px;
+    text-indent: -15px;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -100,8 +105,8 @@ input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow sp
         width: 100%;
     }
     .ingredients li{
-    text-align: left;
-    padding: 8px;
-    margin-left: 10px;
+        text-align: left;
+        padding: 8px;
+        margin-left: 10px;
 }
 }
