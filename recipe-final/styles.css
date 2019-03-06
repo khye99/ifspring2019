@@ -76,6 +76,10 @@ a {
 a:hover {
     color: lightskyblue;
 }
+.source {
+    text-align: center;
+    font-size: 15px;
+}
 /*
 .checkbox {
     margin: 10px;
