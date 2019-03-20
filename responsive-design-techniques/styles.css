@@ -32,6 +32,11 @@ body {
     margin-bottom:1rem;
 }
 
+@media (max-width: 800px) {
+    body {
+        width: 90%;
+    }
+}
 
 @media (min-width:640px) {
     body {
