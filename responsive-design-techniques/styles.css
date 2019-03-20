@@ -1,8 +1,14 @@
 body {
-    max-width: 800px;
-    margin:auto;
+	padding: 0;
+	margin: 0;
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
 }
 
+ul {
+    padding-left: 0;
+}
 #fixed-size-grid-items li{
     list-style-type: none;
     display: inline-block;
@@ -11,7 +17,7 @@ body {
 
 #fixed-size-grid-items aside {
     width: 170px;
-    margin:10px 10px;
+    margin: 10px;
 }
 
 
@@ -30,12 +36,6 @@ body {
     margin-right:-10px;
     margin-top:1rem;
     margin-bottom:1rem;
-}
-
-@media (max-width: 800px) {
-    body {
-        width: 90%;
-    }
 }
 
 @media (min-width:640px) {
