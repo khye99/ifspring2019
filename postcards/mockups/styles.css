@@ -1,0 +1,25 @@
+body {
+    background-color: #2B2A2A;
+    color: white;
+
+}
+h1 {
+    text-align: center;
+}
+.comp img {
+    width: 90%;
+}
+
+.phone img {
+    width: 50%;
+}
+.comp {
+    width: 50%;
+    padding: 0 0 300px 0;
+    float: left;
+    margin-left: 100px;
+}
+.phone {
+    width: 40%;
+    float: right;
+}
