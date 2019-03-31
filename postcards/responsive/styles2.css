@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+a {
+    position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:1;
+}
+body {
+    margin: 0px;
+	padding: 0px;
+	color: #75470B;
+	background-image: url("images/pic2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:bottom left;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.text_area {
+    width: 85%;
+	margin-left: 8%;
+	margin-top: 5%;
+}
+.quote {
+    font-size: 55px;
+    line-height: 70px;
+}
+
+.name {
+    margin-left: 70%;
+    padding-top: 3%;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1100px) {
+    .text_area {
+        margin-top: 15%;
+    }
+    .quote {
+        font-size: 260%;
+    }
+    .name {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 730px) {
+    .text_area {
+        margin-top: 33%;
+    }
+    .quote {
+        font-size: 260%;
+        line-height: 60px;
+    }
+    .name {
+        margin-left: 50%;
+    }
+}
+@media (max-width: 650px) {
+    body {
+        background-position: center;
+    }
+    .text_area {
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 50%;
+    }
+    .quote {
+        font-size: 150%;
+        line-height: 50px;
+    }
+    .name {
+        font-size: 100%;
+        margin-left: 40%;
+    }
+}
+@media (max-width: 500px) {
+    .text_area {
+        margin-top: 70%;
+    }
+}
+@media (max-width: 410px) {
+    .text_area {
+        margin-top: 75%;
+    }
+    .quote {
+        font-size: 140%;
+        line-height: 40px;
+    }
+    .name {
+        font-size: 100%;
+        margin-left: 30%;
+    }
+}
+
+@media (max-height: 750px) {
+    .text_area {
+        margin-top: 40%;
+    }
+    .quote {
+        font-size: 3vw;
+    }
+}
+@media (max-height: 400px) {
+    .text_area {
+        margin-top: 10%;
+    }
+
+}
+@media (max-height: 800px) {
+    .text_area {
+        margin-top: 10%;
+    }
+    .quote {
+        font-size: 3vw;
+    }
+    .name {
+        font-size: 2vw;
+    }
+}
+
+

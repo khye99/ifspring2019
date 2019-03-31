@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+a {
+    position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:1;
+}
+body {
+    margin: 0px;
+	padding: 0px;
+	color: white;
+	background-image: url("images/pic3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:bottom left;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.text_area {
+    width: 50%;
+	margin-left: 5%;
+	margin-top: 25%;
+}
+.quote {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.name {
+    margin-left: 50%;
+    padding-top: 5%;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1400px){
+    .text_area {
+        margin-top: 35%;
+    }
+    .quote {
+        font-size: 40px;
+    }
+    .name {
+        margin-top: 1%;
+    }
+}
+@media (max-width: 1100px){
+    .text_area {
+        margin-top: 5%;
+    }
+    .quote {
+        font-size: 40px;
+    }
+    .name {
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 900px){
+    .text_area {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .quote {
+        font-size: 40px;
+    }
+    .name {
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+}
+@media (max-width: 660px){
+    body {
+        background-position: right;
+    }
+    .text_area {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .quote {
+        font-size: 40px;
+    }
+    .name {
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+}
+@media (max-width: 550px){
+    .text_area {
+        width: 80%;
+        margin-top: 20%;
+        margin-left: 12%;
+    }
+    .quote {
+        font-size: 150%;
+        line-height: 50px;
+    }
+    .name {
+        margin-left: 50%;
+        font-size: 100%;
+    }
+}
+
+@media (max-height: 800px) {
+    .text_area {
+        margin-top: 10%;
+    }
+    .quote {
+        font-size: 4vw;
+    }
+}
+@media (max-height: 500px) {
+    .text_area {
+        margin-top: 2%;
+    }
+    .quote {
+        font-size: 4vw;
+    }
+}
