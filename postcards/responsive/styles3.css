@@ -116,6 +116,9 @@ p {
     .quote {
         font-size: 4vw;
     }
+    .name {
+        margin-left: 40%;
+    }
 }
 @media (max-height: 500px) {
     .text_area {
@@ -123,5 +126,8 @@ p {
     }
     .quote {
         font-size: 4vw;
+    }
+    .name {
+        margin-left: 40%;
     }
 }

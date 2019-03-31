@@ -102,8 +102,15 @@ p {
         margin-left: 30%;
     }
 }
-
-@media (max-height: 750px) {
+@media (max-height: 800px) {
+    .text_area {
+        margin-top: 50%;
+    }
+    .name {
+        font-size: 3vw;
+    }
+}
+@media (max-height: 700px) {
     .text_area {
         margin-top: 40%;
     }
@@ -116,17 +123,6 @@ p {
         margin-top: 10%;
     }
 
-}
-@media (max-height: 800px) {
-    .text_area {
-        margin-top: 10%;
-    }
-    .quote {
-        font-size: 3vw;
-    }
-    .name {
-        font-size: 2vw;
-    }
 }
 
 
