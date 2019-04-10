@@ -66,9 +66,9 @@ body, html{
     transition: margin-left 0.7s;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
+.img1, .img2, .img3, .img4, .img5, .img6{
   position:relative;
-  opacity:0.70;
+  opacity:0.90;  /* make background photos a bit hazy so words will show up better */
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -80,39 +80,40 @@ body, html{
   background-attachment:fixed;
 }
 
-.pimg1{
+.img1{
   background-image:url('images/img1.jpg');
   min-height:100%;
 }
 
-.pimg2{
+.img2{
   background-image:url('images/img2.jpg');
   min-height:100%;
 }
 
-.pimg3{
+.img3{
   background-image:url('images/img3.jpg');
   min-height:100%;
 }
 
-.pimg4{
+.img4{
   background-image:url('images/img4.jpg');
   min-height:100%;
 }
 
-.pimg5{
+.img5{
   background-image:url('images/img5.jpg');
   min-height:100%;
 }
-.pimg6{
+.img6{
   background-image:url('images/img6.jpg');
   min-height:100%;
 }
 
 
 .section{
-  text-align:center;
-  padding:50px 80px;
+    text-align:center;
+    padding:50px 80px;
+    font-size: 18px;
 }
 
 .section-light{
@@ -127,19 +128,20 @@ body, html{
 
 
 .ptext{
-  position:absolute;
-  top:50%;
-  width:100%;
-  text-align:center;
-  color:#000;
-  font-size:27px;
-  letter-spacing:8px;
-  text-transform:uppercase;
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:37px;
+    letter-spacing:9px;
+    text-transform:uppercase;
 }
 
 .ptext .border{
-    font-size: 40px;
-    background-color:#111;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 4px 4px 6px black;
     color:#fff;
     padding:20px;
 }
@@ -147,23 +149,37 @@ body, html{
 .ptext .border-trans{
   background-color:transparent;
 }
-#sustain {
+
+._text1_title {
+    font-weight: 900;
+    font-size: 25px;
+    font-style: italic; 
+}
+
+._text1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#act {
     color: white;
+     text-shadow: 3px 3px 7px black;
 }
 
 .video {
-    margin: 5%;
+    position: relative;
+    padding-bottom: 56%;
+    width: 100%;
+    text-align: left;
 }
-/*
-#activities ul {
-    list-style-type: none;
-    margin-right: 40px;
-}
-*/
 
-iframe {
-    width: 84.5%;
-    margin-left: 8%;
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .row {
@@ -188,6 +204,7 @@ iframe {
     width: 80%;
     margin-left: 11%;
     border-radius: 50%;
+    opacity: 0.9;
 }
 .column p {
     margin-left: 30px;
