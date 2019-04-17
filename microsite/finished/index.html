@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Welcome to Iceland </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Merienda|Poiret+One|Raleway|Coming Soon" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+         <div id="navBar_content">
+            <span class="slide">
+                <a onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </span>
+            <div id="menu" class="nav">
+                <a class="close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </a>
+                <div class="choices">
+                    <a href="#home"> HOME </a>
+                    <a href="#sec1"> HISTORY </a>
+                    <a href="#sec2"> ACTIVITES </a>
+                    <a href="#sec3"> FOOD </a>
+                    <a href="#sec4"> SUSTAINABILITY </a>
+                 </div>
+            </div>
+        </div>
+        <div id="home" class="img1">
+            <div class="ptext">
+              <span class="border">
+                Welcome to Iceland
+              </span>
+            </div>
+        </div>
+
+        <div class="video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/KFYJG-pOspw" allowtransparency="true"> </iframe>
+        </div>
+        <section class="section section-light">
+        <h2>About</h2>
+        <p>
+          Iceland is often called the Land of Fire and Ice, a land of pristine nature where volcanoes and geothermal heat have made their mark on the landscape, along with the many glaciers and glacier lagoons. Iceland is such a magical place that it could have been plucked from a book of fairy tales. And don’t let the name fool you! Thanks to the warming effects of the Gulf Stream, Iceland enjoys temperate climates year round. Regardless of the season, you’ll be warmly welcomed by Icelanders. We love to share our culture, and will make the extra efforts to ensure that your stay, much like the spectacular landscape, will never be forgotten.
+        </p>
+        </section>        
+
+        <div id="sec1" class="img2">
+            <div class="ptext">
+              <span class="border-trans">
+                 HISTORY
+              </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h3 class="_text1_title"> Long ago...</h3>
+            <p class="_text1">
+                The discovery of Iceland is attributed to the Greek explorer Pytheas who made an epic voyage of exploration to north-western Europe around 325 BC. He mentions a land, Ultima Thule, or Thule, in the farthest north, six days’ sailing north of Britain and near a frozen sea. He also describes the phenomenon of the Midnight Sun. On later medieval maps Iceland is depicted as Thule. 
+            </p>
+            <p>
+                The first permanent settler of Iceland was Ingólfur Arnarson, a rich and influential Norwegian chieftain who sailed to Iceland to settle in 874 AD. Together with his wife, Hallveig Fróðadóttir, he built a homestead on a site that he named Reykjavík. 
+            </p>
+            <p>
+                Most of Iceland’s first settlers came from western Norway, but some came from other Scandinavian countries, as well as from the Norse Viking Age settlements in the British Isles. The settlers who came from Norway were mainly big farmers and powerful chieftains who were dissatisfied with excessive power of King Harald I (Harald Fairhair). They sailed in open boats with their families, kinsmen, serfs and livestock and settled on the lowlands along the coast where they could pursue farming. They established large farms and sustained themselves mostly by breeding cattle and some fishing. According to the early Icelandic sources, some Irish monks were living in Iceland when the Nordic settlers arrived, but they departed soon after.
+            </p>
+        </section>
+
+        <div id="sec2" class="img3">
+            <div class="ptext">
+                <span id="act" class="border-trans">
+                    ACTIVITIES
+                </span>
+            </div>
+        </div>
+
+        <section id="activities" class="container">
+            <button class="both_btn left_btn " onclick="plusDivs(-1)">&#10094</button>
+            <button class="both_btn right_btn " onclick="plusDivs(1), replace('div1','div2')" >&#10095;</button> 
+            <div id="div1">
+                <img class="titleSlide" src="images/randr.jpg">
+            </div>
+            <div id="div2">
+                <img class="mySlides" src="images/act1.jpg" >
+                <img class="mySlides" src="images/act2.jpg" >
+                <img class="mySlides" src="images/act3.jpg" >
+                <img class="mySlides" src="images/act4.jpg" >
+                <img class="mySlides" src="images/act5.jpg" >
+                <img class="mySlides" src="images/act6.jpg" >
+            </div>       
+        </section>
+
+
+        <div id="sec3" class="img4">
+            <div class="ptext">
+                <span id="act" class="border-trans">
+                    FOOD
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <p>
+                The Icelandic Cuisine is not as widely known as its natural landscape beauty offers. Gradually with the involvement of time and skill, particularly chefs improvising and infusing ingredients into the local foods the picture has changed drastically since. Given below are some of the foods and drinks you should definitely try when traveling to Iceland.
+            </p>
+        </section>
+        <section class="section section-light">
+            <div class="row">
+                <div class="column">
+                    <h2> Skyr </h2>
+                    <img src="images/food1.jpg" alt="Skyr">
+                    <p> Skyr is a dairy product made out of cheese which is similar to yogurt. It is low in fat and high in protein and is one of the cultural food that has been consumed for over a thousand years. As usual, you can have it served with milk and a sweet topping like berries or other fruits.</p>
+                </div>
+                <div class="column">
+                    <h2> Lamb </h2>
+                    <img src="images/food2.jpg" alt="Lamb">
+                    <p> Icelanders love the meat of Lamb and Sheep. This meat is readily available than beef. They are roasted or made into hearty stew. The slow roasted lamb is preferred by the majority Icelanders. If you are daring enough you can go for the smoked Sheep’s head.</p>
+                </div>
+                <div class="column">
+                    <h2> Fermented Shark </h2>
+                    <img src="images/food3.jpg" alt="Fermented Shark">
+                    <p>Fermented Shark locally known as Hakarl is the national dish of Iceland. While the consumption of this particular dish is relatively low even for the locals, just try it to have the notion that you have to experience Iceland to the fullest.</p>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="column">
+                    <h2> Hot Spring Rye Bread </h2>
+                    <img src="images/food4.jpg" alt="Hot Spring Rye Bread">
+                    <p>You will find the dark rye bread and butter served with many other meals which are a popular Nordic bread where it is baked by burying near the hot spring. They are sweet and is available in most of the grocery stores.</p>
+                </div>
+                <div class="column">
+                    <h2> Puffin </h2>
+                    <img src="images/food5.jpg" alt="Puffin">
+                    <p>It is seabird which is usually smoked or boiled in milk. Like the national dish Hakarl, it is another dish not widely consumed. It is one of the delicacies on the menus throughout the country. It tastes close to beef and has a distinct seafood taste.</p>
+                </div>
+                <div class="column">
+                    <h2> Fish Stew </h2>
+                    <img src="images/food6.jpg" alt="Fish Stew">
+                    <p>Known as Plokkfiskur in Iceland, it is a traditional Icelandic dish prepared from boiled cod or haddock mashed together with the white sauce, onions, and potatoes. Icelanders love to fish and they always use fresh fish which is no exception in this dish. This famous fish stew is also served with dark rye bread and butter.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="sec4" class="img5">
+            <div class="ptext">
+                <span class="border-trans">
+                    <div id="act">
+                        SUSTAINABILITY
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h3 class="_text1_title"> Going Green</h3>
+            <p class="_text1">
+            As the greenest country on our planet, Iceland produces 100% of its electricity from renewable energy sources. Complemented with exclusive access into the nation’s leading renewable energy facilities, Iceland is the premier location for a truly hands-on educational experience and professional launch pad into the fields of renewable energy and sustainability. 
+            </p>
+            <p>
+            Hydropower and geothermal energy now account for more than 99% of Iceland's electricity production. These are sustainable and clean energy sources that the people of Iceland are proud to present to visitors. Most of the country's houses are heated by geothermal district heating systems.
+            </p>
+            <p>
+            It has been calculated that Iceland  saves what  amounts to its annual GDP every 20 years by using geothermal house heating instead of oil.  Furthermore, many of  our  fishing companies are very well off now, and they have been expanding into other  industries and to other  countries. At the  same time, many of them strive to make better use of what is  brought ashore, to make valuable  products from what used to  be thrown away a couple of decades ago, such  as the bones, heads, intestines and skin.
+            </p>
+        </section>
+
+        <div class="img6">
+        <div class="ptext">
+          <span class="border">
+            þetta reddast
+          </span>
+        </div>
+        </div>
+
+        <footer>
+            <ul class="listObj">
+                <li> Copyright &copy 2019</li>
+                <li> Creative Director: Rose Ho</li>
+                <li> Designer: Karen Ye</li>    
+                <li> Credits: <a href="https://en.wikipedia.org/wiki/Iceland"> Wikipedia</a>, <a href="https://www.discover.is/10-foods-drinks-must-try-iceland/">Discover</a>, <a href="https://thegreenprogram.com/programs/iceland">The Green Program</a>, and <a href="https://guidetoiceland.is/nature-info/what-to-do-in-iceland">Guide to Iceland </a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
