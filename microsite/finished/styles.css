@@ -312,7 +312,13 @@ button:focus {
         left: 78%;
     }
     .sustain {
-        font-size: 25px;
+        font-size: 23px;
     }
 
+}
+
+@media (max-width: 450px) {
+    .ptext .border {
+        font-size: 25px;
+    }
 }
