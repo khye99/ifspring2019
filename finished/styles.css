@@ -286,7 +286,7 @@ button:focus {
 @media (max-width: 700px) {
     .nav a { 
         
-        font-size: 40px;
+        font-size: 30px;
         line-height: 10px;
     }
     .ptext .border {
@@ -294,7 +294,7 @@ button:focus {
         line-height: 40px;
     }
     .nav .close {
-        right: 160px;
+        right: 220px;
     }
     .column1 {
         width: 10%;
@@ -312,7 +312,13 @@ button:focus {
         left: 78%;
     }
     .sustain {
-        font-size: 25px;
+        font-size: 23px;
     }
 
+}
+
+@media (max-width: 450px) {
+    .ptext .border {
+        font-size: 25px;
+    }
 }
